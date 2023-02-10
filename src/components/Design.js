@@ -35,6 +35,8 @@ const Design = () => {
               onHover: {
                 enable: true,
                 mode: "repulse",
+
+                distance: 400,
               },
               resize: true,
             },
@@ -54,7 +56,7 @@ const Design = () => {
             },
             links: {
               color: "#ffffff",
-              distance: 100,
+              distance: 120,
               enable: true,
               opacity: 0.6,
               width: 1,
@@ -97,3 +99,11 @@ const Design = () => {
 };
 
 export default Design;
+
+// mode: "grab",
+// grab: {
+//   distance: 300,
+//   line_linked: {
+//     opacity: 0.5,
+//   },
+// },
